@@ -1,0 +1,62 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>output number 5</title>
+</head>
+<body>
+	<form>
+			<h1><h1><br><br><center><div class="form-group">
+					<label >AMOUNT</label>
+					<br><input type="text" id="Value1">
+				</div>
+		</form>
+		<br><input type="button" value="350ml" onclick="addition()">
+		<br><input type="button" value="450ml" onclick="subtraction()">
+		<br><input type="button" value="650ml" onclick="multiplication()">
+
+		<script type="text/javascript">
+			function addition()
+{
+	var Value1= document.getElementById('Value1').value;
+	Value1= Number(Value1);
+	if ((Value1>=25)==true)
+		{
+			var b=Value1-25;
+			alert('ENJOY YOUR COKE!!!!. . . . .'+b+' is your change!');
+
+		}
+		else {
+			alert ('Insuffecient Amount')
+		}
+}
+function subtraction()
+{
+	var Value1= document.getElementById('Value1').value;
+	Value1= Number(Value1);
+	if ((Value1>=30)==true)
+		{
+			var b=Value1-30;
+			alert('ENJOY YOUR COKE!!!!. . . . .'+b+' is your change!');
+
+		}
+		else {
+			alert ('Insuffecient Amount')
+		}
+}
+function multiplication()
+{
+	var Value1= document.getElementById('Value1').value;
+	Value1= Number(Value1);
+	if ((Value1>=50)==true)
+		{
+			var b=Value1-50;
+			alert('ENJOY YOUR COKE!!!!. . . . .'+b+' is your change!');
+
+		}
+		else {
+			alert ('Insuffecient Amount')
+		}
+}
+		</script>
+</body>
+</html>	
